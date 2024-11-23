@@ -1,0 +1,40 @@
+table {
+    width: 80%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    background-color: rgb(63, 4, 63);
+    color: white;
+    border: 2px solid rgb(222, 0, 247);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 15px;
+    border: 1px solid rgb(155, 29, 155);
+    vertical-align: middle;
+}
+
+table th {
+    background-color: rgb(222, 0, 247);
+    color: white;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+table td {
+    font-size: 1rem;
+    color: rgb(187, 180, 184);
+}
+
+audio {
+    width: 100%;
+}
+
+table tr:hover {
+    background-color: rgb(155, 29, 155);
+    color: white;
+    transition: background-color 0.3s ease;
+}
